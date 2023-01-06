@@ -1,0 +1,49 @@
+:root {
+	--main-bg-color: #659dbd;
+	--buttons-color: #8d8741;
+	--padding: ;
+	--button-padding: 0.3rem;
+	--text-color: white;
+	--action-button-bgcolor: #daad86;
+}
+
+.main_header {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	background-color: var(--main-bg-color);
+
+	color: var(--text-color);
+	width: 100vw;
+}
+
+.header_list {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	/* justify-content: space-evenly; */
+	gap: 5vw;
+	list-style: none;
+}
+
+.header_list_item {
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: var(--text-color);
+	text-shadow: 2px 3px 1px black;
+}
+.header_list_item:hover {
+	text-shadow: 7px 5px 8px black;
+}
+.book_now {
+	border: 2px solid black;
+	border-radius: 1rem;
+	padding: var(--button-padding);
+	background-color: var(--buttons-color);
+	color: white;
+}
+.book_now:hover {
+	color: black;
+	background-color: var(--action-button-bgcolor);
+	text-shadow: none;
+}
