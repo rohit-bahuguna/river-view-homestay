@@ -25,8 +25,13 @@ const Header = () => {
 					<Link className="header_list_item">Contact</Link>
 				</li>
 				<li>
-					<Link className="header_list_item">
-						<span className="book_now"> BOOK NOW</span>
+					<Link to="/login" className="header_list_item">
+						<span className="book_now"> Login</span>
+					</Link>
+				</li>
+				<li>
+					<Link to="/signup" className="header_list_item">
+						<span className="book_now"> signup</span>
 					</Link>
 				</li>
 			</ul>
