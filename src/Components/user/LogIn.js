@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { userLogIn } from '../../utils/userAPI';
 
 const Login = () => {
@@ -30,6 +31,7 @@ const Login = () => {
 				/>
 				<input type="submit" value="Sign In" onClick={e => Login(e)} />
 			</form>
+			<Link to="/adminaddrooms">add rooms</Link>
 		</div>
 	);
 };
